@@ -1,18 +1,17 @@
 {
-  "name": "jenkin_devops",
+  "name": "jenkins_devops",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^5.2.1",
-    "jest": "^30.4.1",
+    "jest": "^30.3.0",
     "supertest": "^7.2.2"
   }
 }
